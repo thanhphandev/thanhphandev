@@ -82,7 +82,11 @@ I'm a passionate developer who loves creating efficient and elegant solutions. I
 ## 🔥 Recent Projects
 
 <!-- PROJECTS_START -->
-🔄 *Unable to fetch repositories at the moment*
+- **[kpi-management-system](https://github.com/thanhphandev/kpi-management-system)** - KPI Management System is a full-stack web application that helps SMEs create, track, and analyze ... `TypeScript` ⭐ 0
+- **[kpis-demo](https://github.com/thanhphandev/kpis-demo)** - No description available `TypeScript` ⭐ 0
+- **[email-ai-builder](https://github.com/thanhphandev/email-ai-builder)** - No description available `TypeScript` ⭐ 0
+- **[xss-demo](https://github.com/thanhphandev/xss-demo)** - No description available `PHP` ⭐ 0
+- **[PharmacySystem](https://github.com/thanhphandev/PharmacySystem)** - No description available `C#` ⭐ 1
 <!-- PROJECTS_END -->
 
 ## 📝 Latest Blog Posts
@@ -128,7 +132,7 @@ I'm a passionate developer who loves creating efficient and elegant solutions. I
 
 <div align="center">
   
-  **🔄 Last Updated:** `2025-09-20 13:31:08 UTC`
+  **🔄 Last Updated:** `2025-09-20 13:31:49 UTC`
   
   ![Profile Views](https://komarev.com/ghpvc/?username=thanhphandev&color=blueviolet&style=flat-square&label=Profile+Views)
   
