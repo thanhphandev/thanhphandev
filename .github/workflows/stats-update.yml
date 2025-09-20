@@ -1,0 +1,35 @@
+name: Profile Stats Update
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    name: Update GitHub Profile Stats
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Generate GitHub Stats
+      uses: teoxoy/profile-readme-stats@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Commit stats
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        if git diff --staged --quiet; then
+          echo "No stats changes to commit"
+        else
+          git commit -m "📊 Update GitHub stats"
+          git push
+        fi
