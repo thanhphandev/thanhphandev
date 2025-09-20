@@ -1,0 +1,24 @@
+{
+  "name": "github-profile",
+  "version": "1.0.0",
+  "description": "Automated GitHub profile with CI/CD for dynamic updates",
+  "scripts": {
+    "update": "python scripts/update_readme.py",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thanhphandev/thanhphandev.git"
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "automation",
+    "ci-cd",
+    "readme"
+  ],
+  "author": "Thanh Phan",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
