@@ -17,10 +17,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       
-    - name: Generate GitHub Stats
-      uses: teoxoy/profile-readme-stats@v1
+    - name: Generate GitHub Stats with anuraghazra/github-readme-stats
+      uses: anuraghazra/github-readme-stats@master
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        show_icons: true
+        theme: default
+        hide_border: false
+        include_all_commits: true
+        count_private: true
         
     - name: Commit stats
       run: |
@@ -32,4 +37,3 @@ jobs:
         else
           git commit -m "📊 Update GitHub stats"
           git push
-        fi
