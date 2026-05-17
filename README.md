@@ -95,24 +95,13 @@ const thanhphanvan = {
 
 ### 🚀 LexiVocab — AI-Powered Vocabulary Learning Platform
 
-**Architecture:** Clean Architecture, CQRS, Domain-Driven Design (DDD)
-**Tech Stack:** ASP.NET Core Web API, Entity Framework Core, PostgreSQL, Redis, Docker, Next.js
+**Architecture:** Clean Architecture, CQRS, DDD
+**Tech Stack:** ASP.NET Core Web API, PostgreSQL, Redis, Docker, Next.js
 
-#### Key Features
-
-* Designed and developed a scalable backend architecture with clear separation between Domain, Application, Infrastructure, and API layers.
-* Implemented AI-powered language features using a provider-agnostic orchestration layer supporting multiple AI models/providers.
-* Built feature gating and quota management systems for SaaS-style subscription control.
-* Applied CQRS + MediatR to improve maintainability and simplify business workflow handling.
-* Integrated caching, centralized exception handling, and structured logging for better performance and observability.
-* Developed secure authentication & authorization flows with role-based access control.
-* Wrote Unit Tests and Integration Tests to ensure business logic reliability and long-term maintainability.
-
-#### Impact
-
-* Improved scalability and maintainability for long-term product development.
-* Reduced coupling between modules, making onboarding and future feature expansion significantly easier.
-* Built with production-oriented architecture and deployment mindset from the ground up.
+* Built a scalable backend system with Clean Architecture and CQRS.
+* Implemented AI-powered features with multi-provider AI orchestration.
+* Developed authentication, feature gating, quota management, caching, and structured logging.
+* Applied Unit & Integration Testing to improve reliability and maintainability.
 
 
 ## 📫 Let's Connect
